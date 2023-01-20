@@ -1,0 +1,13 @@
+
+
+Centralized ContextAPI Portion 
+=================================
+1.Make a folder(contexts) => Authprovider => Authprovider.js
+2.Register Authprovider Component in Index.js Over <App/>
+3.Create a AuthContext in AuthPoriver.js  
+              Exp :  export const AuthContext = createContext()
+4.Then access the <App/> that was declared in AuthProvider using {children}
+    
+               
+             
+   
